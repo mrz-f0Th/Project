@@ -1,0 +1,94 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* CSS Raka */
+.jumbotron {
+    position: relative;
+    width: 100%;
+    height: 450px;
+}
+
+.slide1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(img/gambar1.png) no-repeat center;
+    background-size: cover;
+    filter: contrast(.7);
+    display: flex;
+}
+
+.slide1 h1 {
+    margin: auto;
+    font-size: 100px;
+    font-weight: normal;
+}
+
+.slide1 span {
+    color: rgb(252, 31, 116);
+    font-weight: bold;
+}
+
+/* CSS Rendy */
+.body1 {
+    background-color: #f7f7f7;
+    height: 1100px;
+    text-align: center;
+    padding: 50px 100px;
+    border-top: 1px solid black;
+}
+
+.heading-jurusan h2,
+.heading-ekskul h2 {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.jurusan {
+    float: left;
+    width: 25%;
+}
+
+.logo-jurusan p {
+    font-size: 20px;
+}
+
+.text {
+    width: 80%;
+    font-size: 15px;
+    color: grey;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+
+.body2 {
+    height: 625px;
+    text-align: center;
+    padding: 50px 100px;
+    margin-bottom: 50px;
+    border-top: 1px solid black;
+}
+
+.ekskul {
+    float: right;
+    width: 25%;
+}
+
+.ekskul p {
+    font-size: 25px;
+}
+
+.penutup {
+    text-align: center;
+    height: 150px;
+    font-weight: normal;
+}
