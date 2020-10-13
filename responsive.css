@@ -1,0 +1,63 @@
+@media all and (max-width: 1000px) {
+    .jumbotron {
+        height: 400px;
+    }
+
+    .jurusan,
+    .ekskul {
+        width: 50%;
+    }
+
+    .body1 {
+        height: 2250px;
+    }
+
+    .body2 {
+        height: 1000px;
+    }
+
+    .ekskul p {
+        font-size: 20px;
+    }
+
+    .logo-ekskul {
+        height: 200px;
+    }
+
+    .ekskul {
+        float: left;
+    }
+}
+
+@media all and (max-width: 670px) {
+
+    .jumbotron {
+        height: 300px;
+    }
+
+    .jurusan,
+    .ekskul {
+        width: 100%;
+    }
+
+    img {
+        width: 175px;
+    }
+
+    .heading-jurusan h2,
+    .heading-ekskul h2 {
+        font-size: 20px;
+    }
+
+    .body1 {
+        height: 3350px;
+    }
+
+    .body2 {
+        height: 1500px;
+    }
+
+    .ekskul {
+        float: left;
+    }
+}
