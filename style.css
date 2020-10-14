@@ -105,6 +105,73 @@ body {
     font-size: 25px;
 }
 
+.juru {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: 50px auto;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 300px;
+}
+
+.j {
+    margin: auto;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.j1 {
+    background-image: url(img/AKL.png);
+    background-size: cover;
+    animation: fade1 60s infinite;
+}
+
+.j2 {
+    background-image: url(img/OTKP.png);
+    background-size: cover;
+    animation: fade2 60s infinite;
+}
+
+.j3 {
+    background-image: url(img/BDP.png);
+    background-size: cover;
+    animation: fade3 60s infinite;
+}
+
+.j4 {
+    background-image: url(img/M-Log.jpg);
+    background-size: cover;
+    animation: fade4 60s infinite;
+}
+
+.j5 {
+    background-image: url(img/MM.jpg);
+    background-size: cover;
+    animation: fade5 60s infinite;
+}
+
+.j6 {
+    background-image: url(img/TKJ.png);
+    background-size: cover;
+    animation: fade6 60s infinite;
+}
+
+.j7 {
+    background-image: url(img/RPL.jpg);
+    background-size: cover;
+    animation: fade7 60s infinite;
+}
+
+.txt {
+    position: absolute;
+    top: 260px;
+    text-align: center;
+}
+
 /* CSS Rendy */
 .body1 {
     background-color: #f7f7f7;
