@@ -13,6 +13,7 @@ body {
 /* CSS Raka */
 .jumbotron {
     position: relative;
+    display: flex;
     width: 100%;
     height: 450px;
 }
@@ -23,19 +24,85 @@ body {
     height: 100%;
     background: url(img/gambar1.png) no-repeat center;
     background-size: cover;
-    filter: contrast(.7);
+    filter: contrast(.8);
     display: flex;
 }
 
-.slide1 h1 {
+.jumbotron h1 {
+    position: relative;
+
     margin: auto;
     font-size: 100px;
     font-weight: normal;
 }
 
-.slide1 span {
+.jumbotron span {
     color: rgb(252, 31, 116);
     font-weight: bold;
+}
+
+.bodi {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: 50px auto;
+    justify-content: center;
+    display: flex;
+}
+
+.g {
+    margin: auto;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.g1 {
+    background-image: url(img/teater.png);
+    background-size: cover;
+    animation: fade1 20s infinite;
+}
+
+.g2 {
+    background-image: url(img/english.png);
+    background-size: cover;
+    animation: fade2 20s infinite;
+}
+
+.g3 {
+    background-image: url(img/mandarin.png);
+    background-size: cover;
+    animation: fade3 20s infinite;
+}
+
+.g4 {
+    background-image: url(img/tari.png);
+    background-size: cover;
+    animation: fade4 20s infinite;
+}
+
+.g5 {
+    background-image: url(img/taekwondo.png);
+    background-size: cover;
+    animation: fade5 20s infinite;
+}
+
+.g6 {
+    background-image: url(img/perkusi.png);
+    background-size: cover;
+    animation: fade6 20s infinite;
+}
+
+.g7 {
+    background-image: url(img/paskibra.png);
+    background-size: cover;
+    animation: fade7 20s infinite;
+}
+
+.g p {
+    font-size: 25px;
 }
 
 /* CSS Rendy */
@@ -91,4 +158,285 @@ body {
     text-align: center;
     height: 150px;
     font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Animation */
+
+@keyframes fade1 {
+    0% {
+        opacity: 1;
+    }
+
+    14.28% {
+        opacity: 0;
+    }
+
+    28.56% {
+        opacity: 0;
+    }
+
+    42.84% {
+        opacity: 0;
+    }
+
+    57.12% {
+        opacity: 0;
+    }
+
+    71.4% {
+        opacity: 0;
+    }
+
+    85.68% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade2 {
+    0% {
+        opacity: 0;
+    }
+
+    14.28% {
+        opacity: 1;
+    }
+
+    28.56% {
+        opacity: 0;
+    }
+
+    42.84% {
+        opacity: 0;
+    }
+
+    57.12% {
+        opacity: 0;
+    }
+
+    71.4% {
+        opacity: 0;
+    }
+
+    85.68% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fade3 {
+    0% {
+        opacity: 0;
+    }
+
+    14.28% {
+        opacity: 0;
+    }
+
+    28.56% {
+        opacity: 1;
+    }
+
+    42.84% {
+        opacity: 0;
+    }
+
+    57.12% {
+        opacity: 0;
+    }
+
+    71.4% {
+        opacity: 0;
+    }
+
+    85.68% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fade4 {
+    0% {
+        opacity: 0;
+    }
+
+    14.28% {
+        opacity: 0;
+    }
+
+    28.56% {
+        opacity: 0;
+    }
+
+    42.84% {
+        opacity: 1;
+    }
+
+    57.12% {
+        opacity: 0;
+    }
+
+    71.4% {
+        opacity: 0;
+    }
+
+    85.68% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fade5 {
+    0% {
+        opacity: 0;
+    }
+
+    14.28% {
+        opacity: 0;
+    }
+
+    28.56% {
+        opacity: 0;
+    }
+
+    42.84% {
+        opacity: 0;
+    }
+
+    57.12% {
+        opacity: 1;
+    }
+
+    71.4% {
+        opacity: 0;
+    }
+
+    85.68% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fade6 {
+    0% {
+        opacity: 0;
+    }
+
+    14.28% {
+        opacity: 0;
+    }
+
+    28.56% {
+        opacity: 0;
+    }
+
+    42.84% {
+        opacity: 0;
+    }
+
+    57.12% {
+        opacity: 0;
+    }
+
+    71.4% {
+        opacity: 1;
+    }
+
+    85.68% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fade7 {
+    0% {
+        opacity: 0;
+    }
+
+    14.28% {
+        opacity: 0;
+    }
+
+    28.56% {
+        opacity: 0;
+    }
+
+    42.84% {
+        opacity: 0;
+    }
+
+    57.12% {
+        opacity: 0;
+    }
+
+    71.4% {
+        opacity: 0;
+    }
+
+    85.68% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
 }
