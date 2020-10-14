@@ -2,8 +2,8 @@
     .jumbotron {
         height: 400px;
     }
-    
-    .slide1 h1 {
+
+    .jumbotron h1 {
         font-size: 60px;
     }
 
@@ -38,11 +38,11 @@
     .jumbotron {
         height: 300px;
     }
-    
-    .slide1 h1 {
+
+    .jumbotron h1 {
         font-size: 30px;
     }
-    
+
     .jurusan,
     .ekskul {
         width: 100%;
