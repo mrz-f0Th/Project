@@ -27,5 +27,13 @@
 
     .nav {
         justify-content: center;
+        border-radius: 0px;
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .tigad ul li {
+        width: 40px;
+        height: 40px;
     }
 }
