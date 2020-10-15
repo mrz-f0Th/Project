@@ -36,6 +36,12 @@ nav .nav .nav-logo {
     color: rgb(255, 255, 255);
 }
 
+nav .nav .hamburger {
+    color: white;
+    font-size: 20px !important;
+    display: none;
+}
+
 nav .nav ul {
     display: flex;
     list-style: none;
@@ -73,7 +79,7 @@ main {
     margin-top: 50px;
     padding: 50px;
     box-sizing: border-box;
-    box-shadow: 0px 0px 7px 1px black;
+    box-shadow: 0px 0px 5px 1px black;
     border-radius: 30px;
 }
 
@@ -182,6 +188,9 @@ main #about .ket h1 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    position: relative;
+    height: 250px;
+    margin-bottom: 50px;
 }
 
 .bagian {
@@ -189,6 +198,37 @@ main #about .ket h1 {
     margin: 10px;
 }
 
+.satu {
+    animation: fade1 20s infinite;
+}
+
+.dua {
+    animation: fade2 20s infinite;
+}
+
+.tiga {
+    animation: fade3 20s infinite;
+}
+
+.empat {
+    animation: fade4 20s infinite;
+}
+
+.lima {
+    animation: fade5 20s infinite;
+}
+
+.enam {
+    animation: fade6 20s infinite;
+}
+
+.tujuh {
+    animation: fade7 20s infinite;
+}
+
+.delapan {
+    animation: fade8 20s infinite;
+}
 
 footer {
     width: 100%;
@@ -318,4 +358,314 @@ footer {
 
 .tigad ul li:nth-child(5):hover span {
     background-color: rgb(44, 44, 44);
+}
+
+.foomo {
+    color: white;
+    display: none;
+}
+
+
+@keyframes fade1 {
+    0% {
+        opacity: 1;
+    }
+
+    12.5% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 0;
+    }
+
+    37.5% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    62.5% {
+        opacity: 0;
+    }
+
+    75% {
+        opacity: 0;
+    }
+
+    87.5% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade2 {
+    0% {
+        opacity: 0;
+    }
+
+    12.5% {
+        opacity: 1;
+    }
+
+    25% {
+        opacity: 0;
+    }
+
+    37.5% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    62.5% {
+        opacity: 0;
+    }
+
+    75% {
+        opacity: 0;
+    }
+
+    87.5% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fade3 {
+    0% {
+        opacity: 0;
+    }
+
+    12.5% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 1;
+    }
+
+    37.5% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    62.5% {
+        opacity: 0;
+    }
+
+    75% {
+        opacity: 0;
+    }
+
+    87.5% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fade4 {
+    0% {
+        opacity: 0;
+    }
+
+    12.5% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 0;
+    }
+
+    37.5% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    62.5% {
+        opacity: 0;
+    }
+
+    75% {
+        opacity: 0;
+    }
+
+    87.5% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fade5 {
+    0% {
+        opacity: 0;
+    }
+
+    12.5% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 0;
+    }
+
+    37.5% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    62.5% {
+        opacity: 0;
+    }
+
+    75% {
+        opacity: 0;
+    }
+
+    87.5% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fade6 {
+    0% {
+        opacity: 0;
+    }
+
+    12.5% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 0;
+    }
+
+    37.5% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    62.5% {
+        opacity: 1;
+    }
+
+    75% {
+        opacity: 0;
+    }
+
+    87.5% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fade7 {
+    0% {
+        opacity: 0;
+    }
+
+    12.5% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 0;
+    }
+
+    37.5% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    62.5% {
+        opacity: 0;
+    }
+
+    75% {
+        opacity: 1;
+    }
+
+    87.5% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fade8 {
+    0% {
+        opacity: 0;
+    }
+
+    12.5% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 0;
+    }
+
+    37.5% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    62.5% {
+        opacity: 0;
+    }
+
+    75% {
+        opacity: 0;
+    }
+
+    87.5% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
 }
