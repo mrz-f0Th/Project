@@ -13,6 +13,10 @@
         display: none;
     }
 
+    main {
+        padding: 10px;
+    }
+
     main #about .ket {
         width: 100%;
     }
@@ -25,15 +29,48 @@
         display: none;
     }
 
+    nav .nav .hamburger {
+        display: inline-block;
+
+    }
+
     .nav {
-        justify-content: center;
+        justify-content: space-between;
         border-radius: 0px;
         width: 100%;
         margin-top: 0px;
+        background-color: black;
     }
 
     .tigad ul li {
         width: 40px;
         height: 40px;
     }
+
+    .jumbotron {
+        border-radius: 0px;
+        height: 300px;
+    }
+
+    .jumbotron img {
+        width: 100px;
+    }
+
+    #juru {
+        padding-bottom: 170px;
+    }
+
+    .tigad {
+        display: none;
+    }
+
+    .foomo {
+        display: inline-block;
+    }
+
+    .bagian {
+        position: absolute;
+        top: 0px;
+    }
+
 }
