@@ -8,6 +8,7 @@ body {
     width: 100%;
     min-height: 100vh;
     font-family: sans-serif;
+    scroll-behavior: smooth;
 }
 
 nav {
@@ -189,45 +190,12 @@ main #about .ket h1 {
     justify-content: center;
     flex-wrap: wrap;
     position: relative;
-    height: 250px;
     margin-bottom: 50px;
 }
 
 .bagian {
     text-align: center;
     margin: 10px;
-}
-
-.satu {
-    animation: fade1 20s infinite;
-}
-
-.dua {
-    animation: fade2 20s infinite;
-}
-
-.tiga {
-    animation: fade3 20s infinite;
-}
-
-.empat {
-    animation: fade4 20s infinite;
-}
-
-.lima {
-    animation: fade5 20s infinite;
-}
-
-.enam {
-    animation: fade6 20s infinite;
-}
-
-.tujuh {
-    animation: fade7 20s infinite;
-}
-
-.delapan {
-    animation: fade8 20s infinite;
 }
 
 footer {
