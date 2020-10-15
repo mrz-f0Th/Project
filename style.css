@@ -50,7 +50,7 @@ nav .nav ul {
     justify-content: space-between;
 }
 
-nav .nav ul li:hover {
+nav .nav ul li a:hover {
     border-bottom: 2px solid blue;
 }
 
