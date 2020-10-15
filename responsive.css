@@ -1,71 +1,31 @@
-@media all and (max-width: 1000px) {
-    .jumbotron {
-        height: 400px;
+@media(max-width: 1000px) {
+    .kepala {
+        display: none;
     }
 
-    .jumbotron h1 {
-        font-size: 60px;
-    }
-
-    .jurusan,
-    .ekskul {
-        width: 50%;
-    }
-
-    .body1 {
-        height: 2250px;
-    }
-
-    .body2 {
-        height: 1000px;
-    }
-
-    .ekskul p {
-        font-size: 20px;
-    }
-
-    .logo-ekskul {
-        height: 200px;
-    }
-
-    .ekskul {
-        float: left;
+    main #about .ket {
+        width: 100%;
     }
 }
 
-@media all and (max-width: 670px) {
-
-    .jumbotron {
-        height: 300px;
+@media(max-width: 670px) {
+    .kepala {
+        display: none;
     }
 
-    .jumbotron h1 {
-        font-size: 30px;
-    }
-
-    .jurusan,
-    .ekskul {
+    main #about .ket {
         width: 100%;
     }
 
-    img {
-        width: 175px;
+    .pengembang {
+        display: none;
     }
 
-    .heading-jurusan h2,
-    .heading-ekskul h2 {
-        font-size: 20px;
+    nav .nav ul {
+        display: none;
     }
 
-    .body1 {
-        height: 3350px;
-    }
-
-    .body2 {
-        height: 1500px;
-    }
-
-    .ekskul {
-        float: left;
+    .nav {
+        justify-content: center;
     }
 }
