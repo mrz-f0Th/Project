@@ -73,4 +73,41 @@
         top: 0px;
     }
 
+    .extra {
+        height: 250px;
+    }
+
+    .satu {
+        animation: fade1 20s infinite;
+    }
+
+    .dua {
+        animation: fade2 20s infinite;
+    }
+
+    .tiga {
+        animation: fade3 20s infinite;
+    }
+
+    .empat {
+        animation: fade4 20s infinite;
+    }
+
+    .lima {
+        animation: fade5 20s infinite;
+    }
+
+    .enam {
+        animation: fade6 20s infinite;
+    }
+
+    .tujuh {
+        animation: fade7 20s infinite;
+    }
+
+    .delapan {
+        animation: fade8 20s infinite;
+    }
+
+
 }
