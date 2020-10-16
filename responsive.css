@@ -3,7 +3,7 @@
         display: none;
     }
 
-    .ket {
+    main #about .ket {
         width: 100%;
     }
 }
@@ -17,7 +17,7 @@
         padding: 10px;
     }
 
-    .ket {
+    main #about .ket {
         width: 100%;
     }
 
